@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""6.009 Lab 5 -- Boolean satisfiability solving"""
+"""Boolean satisfiability solving"""
 
 import sys
 sys.setrecursionlimit(10000)
-# NO ADDITIONAL IMPORTS
 
 def simplify_with_unit_clauses(formula, assignments):
     '''
